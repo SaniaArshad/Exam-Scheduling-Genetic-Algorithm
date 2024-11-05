@@ -8,7 +8,7 @@ The Exam Scheduler GA project uses a Genetic Algorithm to find an optimal and fe
 
 #### Contents
 
-1. **genetic_algorithm.py**: The main script containing the genetic algorithm code.
+1. **GeneticAlgorithm.py**: The main script containing the genetic algorithm code.
 2. **test_data.py**: Contains sample test data for running the algorithm.
 3. **README.md**: Documentation and explanation of the project.
 
@@ -37,7 +37,7 @@ The Exam Scheduler GA project uses a Genetic Algorithm to find an optimal and fe
 
 1. **Run the genetic algorithm:**
    ```bash
-   python genetic_algorithm.py
+   python GeneticAlgorithm.py
    ```
 
 2. The algorithm will initialize a population, select parents using the roulette wheel selection method, perform crossover and mutation to generate new solutions, and check for the best solution based on fitness value.
